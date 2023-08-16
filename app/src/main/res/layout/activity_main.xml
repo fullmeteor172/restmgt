@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Your Restaurant Name"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAddOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLogo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        android:text="Add Order"/>
+
+    <Button
+        android:id="@+id/btnViewOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddOrder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="View Orders" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/btnViewOrders"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="© 2023 Your Restaurant Name"
+        android:textColor="@android:color/darker_gray" />
+
+</RelativeLayout>

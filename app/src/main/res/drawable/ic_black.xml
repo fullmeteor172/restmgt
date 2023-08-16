@@ -1,0 +1,13 @@
+<!-- res/drawable/ic_back.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    tools:ignore="ExtraText">
+    <path
+        android:fillColor="@android:color/white"
+    android:fillAlpha="1"
+    android:pathData="M12,2.25C6.615,2.25 2.25,6.615 2.25,12s4.365,9.75 9.75,9.75s9.75,-4.365 9.75,-9.75S17.385,2.25 12,2.25zM7.72,11.47a.75,.75 0 0,0 0,1.06l3,3a.75,.75 0 1,0 1.06,-1.06l-1.72,-1.72h5.69a.75,.75 0 0,0 0,-1.5h-5.69l1.72,-1.72a.75,.75 0 1,0 -1.06,-1.06l-3,3z"/>
+</vector>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer Name" />
+
+    <EditText
+        android:id="@+id/edtOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCustomerName"
+        android:hint="Order" />
+
+    <EditText
+        android:id="@+id/edtAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtOrder"
+        android:hint="Total Amount" />
+
+    <CheckBox
+        android:id="@+id/chkTakeAway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtAmount"
+        android:layout_marginTop="8dp"
+        android:text="Take Away" />
+
+    <Button
+        android:id="@+id/btnSaveOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chkTakeAway"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Save Order" />
+
+</RelativeLayout>
